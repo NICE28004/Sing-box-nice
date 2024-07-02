@@ -1,0 +1,14 @@
+proxies:
+  - name: MELBIKOMAS UAB WS SNI 👑
+    server: 5.44.249.43
+    port: 3306
+    type: trojan
+    password: VvhvjbjBvugcuguugcug
+    skip-cert-verify: true
+    sni: teams.microsoft.com
+    network: ws
+    ws-opts:
+      path: /gateway/connect
+      headers:
+        Host: teams.microsoft.com
+    udp: true
