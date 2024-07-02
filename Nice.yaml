@@ -3,7 +3,7 @@ proxies:
     server: 5.44.249.43
     port: 3306
     type: trojan
-    password: VvhvjbjBvugcuguugcug
+    password: dc2d9db59868ba6b
     skip-cert-verify: true
     sni: teams.microsoft.com
     network: ws
